@@ -1,6 +1,6 @@
 # Site settings
 title: OpenWorlds, your 3D Universe
-email: info@openworlds.org
+email: info@open-worlds.org
 description: > # this means to ignore newlines until "baseurl:"
   OpenWorlds is an opensource architecture for hosting interactive 3D worlds,
   where citizens or even tourists can build. It is a modernized version of
