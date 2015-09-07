@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Progress report 2015-08-13"
+date:   2015-08-13 19:30:00
+categories:
+---
+It has been a little while since I posted, but I have not been idle! A very minimal world server is setup, that at the very least can host property, and a (web) client that can render the property is now there as well. It is all still very limited, but it at least shows that it can be done....
+
+A basic RWX loader has been implemented in Javascript, as a "proper" ThreeJS loader, if you run the prototype server and threejs-client on the same machine a very small world with a cross road and some street lanterns are rendered. Also setup is already the ability to edit the location and rotation of the property. It is not yet being stored, or sent to other connected client, but my first goal, to see how much work it would be to get something "decent" rendered has proven to work.
+
+So lots of work left to do, I will be continueing with further world details being rendered, like the sky and the terrain, by implementing world configuration (world attributes in ActiveWorlds speak) and terrain data. Once this all renders okay, I'm playing to build a little website that allows for uploading property / terrain / world attribute dumps and view (and modify) the world as a whole online.
+
+If anyone has test files for me, like dumps from existing or previously-existing worlds, that would be very helpful for testing.
+
+Ofcourse, patches are welcome too!
+
+See you next time!
