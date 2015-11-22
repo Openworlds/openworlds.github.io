@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Not dead (yet)!"
+date:   2015-11-22 16:47:00
+categories:
+---
+It has been silent here (in case anyone is reading this), but I have been busy with lots of things, simply did not have the time to post yet. Rendering of RWX has much improved, the last major step there is getting textures to work, which is in progress. Many more RWX commands are supported now and most objects from the ActiveWorlds main object path are rendering correctly (well, excluding the textures and lighting ofcourse).
+
+After looking around for test data I whipped up a tool to generate propdump style format from the ActiveWorlds Browser cache, see the openworlds-awimport repository for the code. This greatly helped in doing more RWX work, as having proper world models / data gives a much more "production" style test environment.
+
+Texture support is coming soon, and I will probably post some screenshots here to show how that all looks now, though it is pretty trivial to try out for yourself.
+
+Getting close to a properly rendering world, which will allow us finally to continue on getting avatars to render and move around in it, getting to the actual interesting parts of getting building to work, chat, etc.
+
+If you've been reading this, thanks for the patience, and feel free to dig around in the code, pull requests _are_ more then welcome!
+
+Till next time, please let me know if you're interested in this project!
